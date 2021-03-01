@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="/Personal_portfolio_style.css" type="text/css" rel="stylesheet">
+    <title>Personal Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="Personal_portfolio_style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Navbar</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,16 +42,16 @@
               </div>
             </div>
           </nav>
-    </header>
+        </header>
     <main>
         <div id="welcom-section">
-            <h1>Hey, I am Hossein</h1>
-            <h3>A Frontend Developer</h3>
+            <h1 id="welcom-h1">Hey, I am Hossein</h1>
+            <h3 id="welcom-h3">A Frontend Developer</h3>
         </div>
         <div id="projects">
-            <div class="project_cards">
+            <div id="project1" class="project_cards">
                 <div calss="card_photo">
-                    <div class="demobox" id="demobox1">1</div>
+                    <div class="demobox" id="demobox1"></div>
                     <!--<img src="/images/Project1.JPG" alt="Project1 - Tribute Page" style="width:500px;height:600px;">-->
                 </div>
                 <div class="card-header">
@@ -61,41 +61,44 @@
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure debitis temporibus sunt,
                          commodi pariatur consequatur culpa id omnis soluta laudantium eum labore excepturi, incidunt repudiandae, quam harum inventore officia fugiat.</p>
                 </div>
-                <div class="project_cards">
-                    <div calss="card_photo">
-                        <div class="demobox" id="demobox2">2</div>
-                        <!-- <img src="/images/Project2 - survay form.JPG" alt="Project2 - survay form" style="width:500px;height:600px;"> -->
-                    </div>
-                    <div class="card-header">
-                        <h4>Survay form</h4>
-                    </div>
-                    <div class="card-describe">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure debitis temporibus sunt,
-                        commodi pariatur consequatur culpa id omnis soluta laudantium eum labore excepturi, incidunt repudiandae, quam harum inventore officia fugiat.</p>
+            </div>
+            <div id="project2" class="project_cards">
+                <div calss="card_photo">
+                    <div class="demobox" id="demobox2"></div>
+                    <!-- <img src="/images/Project2 - survay form.JPG" alt="Project2 - survay form" style="width:500px;height:600px;"> -->
                 </div>
-                <div class="project_cards">
-                    <div calss="card_photo">
-                        <div class="demobox" id="demobox3">3</div>
-                        <!--<img src="/images/project3 - Documentation.JPG" alt="project3 - Documentation page" style="width:500px;height:600px;"> -->
-                    </div>
-                    <div class="card-header">
-                        <h4>Documentation page</h4>
-                    </div>
-                    <div class="card-describe">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure debitis temporibus sunt,
-                        commodi pariatur consequatur culpa id omnis soluta laudantium eum labore excepturi, incidunt repudiandae, quam harum inventore officia fugiat.</p>
+                <div class="card-header">
+                    <h4>Survay form</h4>
                 </div>
-                <div class="project_cards">
-                    <div calss="card_photo">
-                        <div class="demobox" id="demobox4">4</div>
-                        <!--<img src="/images/project4 - landing page.JPG" alt="project4 - landing page" style="width:500px;height:600px;">-->
-                    </div>
-                    <div class="card-header">
-                        <h4>landing page</h4>
-                    </div>
-                    <div class="card-describe">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure debitis temporibus sunt,
-                        commodi pariatur consequatur culpa id omnis soluta laudantium eum labore excepturi, incidunt repudiandae, quam harum inventore officia fugiat.</p>
+                <div class="card-describe">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure debitis temporibus sunt,
+                    commodi pariatur consequatur culpa id omnis soluta laudantium eum labore excepturi, incidunt repudiandae, quam harum inventore officia fugiat.</p>
+                </div>
+            </div>
+            <div id="project3" class="project_cards">
+                <div calss="card_photo">
+                    <div class="demobox" id="demobox3"></div>
+                    <!--<img src="/images/project3 - Documentation.JPG" alt="project3 - Documentation page" style="width:500px;height:600px;"> -->
+                </div>
+                <div class="card-header">
+                    <h4>Documentation page</h4>
+                </div>
+                <div class="card-describe">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure debitis temporibus sunt,
+                    commodi pariatur consequatur culpa id omnis soluta laudantium eum labore excepturi, incidunt repudiandae, quam harum inventore officia fugiat.</p>
+                </div>
+            </div>
+            <div id="project4" class="project_cards">
+                <div calss="card_photo">
+                    <div class="demobox" id="demobox4"></div>
+                    <!--<img src="/images/project4 - landing page.JPG" alt="project4 - landing page" style="width:500px;height:600px;">-->
+                </div>
+                <div class="card-header">
+                    <h4>landing page</h4>
+                </div>
+                <div class="card-describe">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure debitis temporibus sunt,
+                    commodi pariatur consequatur culpa id omnis soluta laudantium eum labore excepturi, incidunt repudiandae, quam harum inventore officia fugiat.</p>
                 </div>
             </div>
         </div>
