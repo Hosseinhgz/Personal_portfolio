@@ -7,6 +7,15 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  justify-content: right;
+}
+
+#project-title {
+  text-align: center;
+  padding: 25px;
+  margin: 10px auto;
+  justify-self: center;
+  color: #a8d0e6;
 }
 #welcom-section {
   color: #ffffff;
@@ -15,7 +24,7 @@ body {
   z-index: -1;
   margin-top: -58px;
   width: 100%;
-  height: 600px;
+  height: 550px;
   text-align: center;
   padding-top: 260px;
   background-repeat: no-repeat;
